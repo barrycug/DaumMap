@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C578000215D0B25F00FEC26D /* DMRoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C578000015D0B25F00FEC26D /* DMRoadViewController.m */; };
+		C578000315D0B25F00FEC26D /* DMRoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C578000115D0B25F00FEC26D /* DMRoadViewController.xib */; };
+		C5821B7F15D0C84900389B09 /* www in Resources */ = {isa = PBXBuildFile; fileRef = C5821B7E15D0C84900389B09 /* www */; };
+		C5826D0E15CFCBC0004B2F73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5826D0D15CFCBC0004B2F73 /* UIKit.framework */; };
+		C5826D1015CFCBC0004B2F73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5826D0F15CFCBC0004B2F73 /* Foundation.framework */; };
+		C5826D1215CFCBC0004B2F73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5826D1115CFCBC0004B2F73 /* CoreGraphics.framework */; };
+		C5826D1815CFCBC0004B2F73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5826D1615CFCBC0004B2F73 /* InfoPlist.strings */; };
+		C5826D1A15CFCBC0004B2F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5826D1915CFCBC0004B2F73 /* main.m */; };
+		C5826D1E15CFCBC0004B2F73 /* DMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5826D1D15CFCBC0004B2F73 /* DMAppDelegate.m */; };
+		C5826D2115CFCBC0004B2F73 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5826D2015CFCBC0004B2F73 /* DMViewController.m */; };
+		C5826D2415CFCBC0004B2F73 /* DMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5826D2215CFCBC0004B2F73 /* DMViewController_iPhone.xib */; };
+		C5826D2715CFCBC0004B2F73 /* DMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5826D2515CFCBC0004B2F73 /* DMViewController_iPad.xib */; };
+		C5826D4115CFCBEE004B2F73 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5826D2E15CFCBEE004B2F73 /* DaumMap.framework */; };
+		C5826D4215CFCBEE004B2F73 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3015CFCBEE004B2F73 /* copyright.png */; };
+		C5826D4315CFCBEE004B2F73 /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3115CFCBEE004B2F73 /* detail_button.png */; };
+		C5826D4415CFCBEE004B2F73 /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3215CFCBEE004B2F73 /* info_box.png */; };
+		C5826D4515CFCBEE004B2F73 /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3315CFCBEE004B2F73 /* map_pin.png */; };
+		C5826D4615CFCBEE004B2F73 /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3415CFCBEE004B2F73 /* map_pin_custom.png */; };
+		C5826D4715CFCBEE004B2F73 /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3515CFCBEE004B2F73 /* map_pin_red.png */; };
+		C5826D4815CFCBEE004B2F73 /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3615CFCBEE004B2F73 /* map_pin_shadow.png */; };
+		C5826D4915CFCBEE004B2F73 /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3715CFCBEE004B2F73 /* map_pinup.png */; };
+		C5826D4A15CFCBEE004B2F73 /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3815CFCBEE004B2F73 /* map_pinup_custom.png */; };
+		C5826D4B15CFCBEE004B2F73 /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3915CFCBEE004B2F73 /* map_present.png */; };
+		C5826D4C15CFCBEE004B2F73 /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3A15CFCBEE004B2F73 /* map_present_background_update.png */; };
+		C5826D4D15CFCBEE004B2F73 /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3B15CFCBEE004B2F73 /* map_present_direction.png */; };
+		C5826D4E15CFCBEE004B2F73 /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3C15CFCBEE004B2F73 /* map_present_tracking.png */; };
+		C5826D4F15CFCBEE004B2F73 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3D15CFCBEE004B2F73 /* noimage.png */; };
+		C5826D5015CFCBEE004B2F73 /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3E15CFCBEE004B2F73 /* noimage256.png */; };
+		C5826D5115CFCBEE004B2F73 /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D3F15CFCBEE004B2F73 /* point_sprite.png */; };
+		C5826D5215CFCBEE004B2F73 /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5826D4015CFCBEE004B2F73 /* shadow_balloon.png */; };
+		C5826D5615CFCC2D004B2F73 /* DMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5826D5415CFCC2D004B2F73 /* DMMapViewController.m */; };
+		C5826D5715CFCC2D004B2F73 /* DMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5826D5515CFCC2D004B2F73 /* DMMapViewController.xib */; };
+		C58F586615CFCF4F0057504A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F586515CFCF4F0057504A /* OpenGLES.framework */; };
+		C58F586915CFCF550057504A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F586815CFCF550057504A /* SystemConfiguration.framework */; };
+		C58F586B15CFCF5B0057504A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F586A15CFCF5B0057504A /* CoreLocation.framework */; };
+		C58F586D15CFCF610057504A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F586C15CFCF610057504A /* QuartzCore.framework */; };
+		C58F586F15CFCF6F0057504A /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F586E15CFCF6F0057504A /* libstdc++.6.0.9.dylib */; };
+		C58F587115CFCF770057504A /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F587015CFCF770057504A /* libxml2.2.7.3.dylib */; };
+		C58F587315CFCF800057504A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F587215CFCF800057504A /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C578000015D0B25F00FEC26D /* DMRoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRoadViewController.m; sourceTree = "<group>"; };
+		C578000115D0B25F00FEC26D /* DMRoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMRoadViewController.xib; sourceTree = "<group>"; };
+		C578FFFF15D0B25F00FEC26D /* DMRoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRoadViewController.h; sourceTree = "<group>"; };
+		C5821B7E15D0C84900389B09 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = daummap/www; sourceTree = "<group>"; };
+		C5826D0915CFCBC0004B2F73 /* daummap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daummap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5826D0D15CFCBC0004B2F73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5826D0F15CFCBC0004B2F73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5826D1115CFCBC0004B2F73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5826D1515CFCBC0004B2F73 /* daummap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "daummap-Info.plist"; sourceTree = "<group>"; };
+		C5826D1715CFCBC0004B2F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5826D1915CFCBC0004B2F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5826D1B15CFCBC0004B2F73 /* daummap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "daummap-Prefix.pch"; sourceTree = "<group>"; };
+		C5826D1C15CFCBC0004B2F73 /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
+		C5826D1D15CFCBC0004B2F73 /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
+		C5826D1F15CFCBC0004B2F73 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
+		C5826D2015CFCBC0004B2F73 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
+		C5826D2315CFCBC0004B2F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMViewController_iPhone.xib; sourceTree = "<group>"; };
+		C5826D2615CFCBC0004B2F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMViewController_iPad.xib; sourceTree = "<group>"; };
+		C5826D2E15CFCBEE004B2F73 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		C5826D3015CFCBEE004B2F73 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		C5826D3115CFCBEE004B2F73 /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		C5826D3215CFCBEE004B2F73 /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		C5826D3315CFCBEE004B2F73 /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		C5826D3415CFCBEE004B2F73 /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		C5826D3515CFCBEE004B2F73 /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		C5826D3615CFCBEE004B2F73 /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		C5826D3715CFCBEE004B2F73 /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		C5826D3815CFCBEE004B2F73 /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		C5826D3915CFCBEE004B2F73 /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		C5826D3A15CFCBEE004B2F73 /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		C5826D3B15CFCBEE004B2F73 /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		C5826D3C15CFCBEE004B2F73 /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		C5826D3D15CFCBEE004B2F73 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		C5826D3E15CFCBEE004B2F73 /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		C5826D3F15CFCBEE004B2F73 /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		C5826D4015CFCBEE004B2F73 /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		C5826D5315CFCC2D004B2F73 /* DMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMapViewController.h; sourceTree = "<group>"; };
+		C5826D5415CFCC2D004B2F73 /* DMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMapViewController.m; sourceTree = "<group>"; };
+		C5826D5515CFCC2D004B2F73 /* DMMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMMapViewController.xib; sourceTree = "<group>"; };
+		C58F586515CFCF4F0057504A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C58F586815CFCF550057504A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C58F586A15CFCF5B0057504A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C58F586C15CFCF610057504A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C58F586E15CFCF6F0057504A /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		C58F587015CFCF770057504A /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		C58F587215CFCF800057504A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5826D0615CFCBC0004B2F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58F587315CFCF800057504A /* libsqlite3.dylib in Frameworks */,
+				C58F587115CFCF770057504A /* libxml2.2.7.3.dylib in Frameworks */,
+				C58F586F15CFCF6F0057504A /* libstdc++.6.0.9.dylib in Frameworks */,
+				C58F586D15CFCF610057504A /* QuartzCore.framework in Frameworks */,
+				C58F586B15CFCF5B0057504A /* CoreLocation.framework in Frameworks */,
+				C58F586915CFCF550057504A /* SystemConfiguration.framework in Frameworks */,
+				C58F586615CFCF4F0057504A /* OpenGLES.framework in Frameworks */,
+				C5826D0E15CFCBC0004B2F73 /* UIKit.framework in Frameworks */,
+				C5826D1015CFCBC0004B2F73 /* Foundation.framework in Frameworks */,
+				C5826D1215CFCBC0004B2F73 /* CoreGraphics.framework in Frameworks */,
+				C5826D4115CFCBEE004B2F73 /* DaumMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5826CFE15CFCBC0004B2F73 = {
+			isa = PBXGroup;
+			children = (
+				C5821B7E15D0C84900389B09 /* www */,
+				C58F587215CFCF800057504A /* libsqlite3.dylib */,
+				C58F587015CFCF770057504A /* libxml2.2.7.3.dylib */,
+				C58F586E15CFCF6F0057504A /* libstdc++.6.0.9.dylib */,
+				C58F586C15CFCF610057504A /* QuartzCore.framework */,
+				C58F586A15CFCF5B0057504A /* CoreLocation.framework */,
+				C58F586815CFCF550057504A /* SystemConfiguration.framework */,
+				C58F586515CFCF4F0057504A /* OpenGLES.framework */,
+				C5826D1315CFCBC0004B2F73 /* daummap */,
+				C5826D0C15CFCBC0004B2F73 /* Frameworks */,
+				C5826D0A15CFCBC0004B2F73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5826D0A15CFCBC0004B2F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5826D0915CFCBC0004B2F73 /* daummap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5826D0C15CFCBC0004B2F73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5826D2D15CFCBEE004B2F73 /* DaumMap.embeddedframework */,
+				C5826D0D15CFCBC0004B2F73 /* UIKit.framework */,
+				C5826D0F15CFCBC0004B2F73 /* Foundation.framework */,
+				C5826D1115CFCBC0004B2F73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5826D1315CFCBC0004B2F73 /* daummap */ = {
+			isa = PBXGroup;
+			children = (
+				C5826D1C15CFCBC0004B2F73 /* DMAppDelegate.h */,
+				C5826D1D15CFCBC0004B2F73 /* DMAppDelegate.m */,
+				C5826D1F15CFCBC0004B2F73 /* DMViewController.h */,
+				C5826D2015CFCBC0004B2F73 /* DMViewController.m */,
+				C5826D2215CFCBC0004B2F73 /* DMViewController_iPhone.xib */,
+				C5826D2515CFCBC0004B2F73 /* DMViewController_iPad.xib */,
+				C5826D5315CFCC2D004B2F73 /* DMMapViewController.h */,
+				C5826D5415CFCC2D004B2F73 /* DMMapViewController.m */,
+				C5826D5515CFCC2D004B2F73 /* DMMapViewController.xib */,
+				C578FFFF15D0B25F00FEC26D /* DMRoadViewController.h */,
+				C578000015D0B25F00FEC26D /* DMRoadViewController.m */,
+				C578000115D0B25F00FEC26D /* DMRoadViewController.xib */,
+				C5826D1415CFCBC0004B2F73 /* Supporting Files */,
+			);
+			path = daummap;
+			sourceTree = "<group>";
+		};
+		C5826D1415CFCBC0004B2F73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5826D1515CFCBC0004B2F73 /* daummap-Info.plist */,
+				C5826D1615CFCBC0004B2F73 /* InfoPlist.strings */,
+				C5826D1915CFCBC0004B2F73 /* main.m */,
+				C5826D1B15CFCBC0004B2F73 /* daummap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5826D2D15CFCBEE004B2F73 /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				C5826D2E15CFCBEE004B2F73 /* DaumMap.framework */,
+				C5826D2F15CFCBEE004B2F73 /* Resources */,
+			);
+			name = DaumMap.embeddedframework;
+			path = daummap/lib/DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		C5826D2F15CFCBEE004B2F73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5826D3015CFCBEE004B2F73 /* copyright.png */,
+				C5826D3115CFCBEE004B2F73 /* detail_button.png */,
+				C5826D3215CFCBEE004B2F73 /* info_box.png */,
+				C5826D3315CFCBEE004B2F73 /* map_pin.png */,
+				C5826D3415CFCBEE004B2F73 /* map_pin_custom.png */,
+				C5826D3515CFCBEE004B2F73 /* map_pin_red.png */,
+				C5826D3615CFCBEE004B2F73 /* map_pin_shadow.png */,
+				C5826D3715CFCBEE004B2F73 /* map_pinup.png */,
+				C5826D3815CFCBEE004B2F73 /* map_pinup_custom.png */,
+				C5826D3915CFCBEE004B2F73 /* map_present.png */,
+				C5826D3A15CFCBEE004B2F73 /* map_present_background_update.png */,
+				C5826D3B15CFCBEE004B2F73 /* map_present_direction.png */,
+				C5826D3C15CFCBEE004B2F73 /* map_present_tracking.png */,
+				C5826D3D15CFCBEE004B2F73 /* noimage.png */,
+				C5826D3E15CFCBEE004B2F73 /* noimage256.png */,
+				C5826D3F15CFCBEE004B2F73 /* point_sprite.png */,
+				C5826D4015CFCBEE004B2F73 /* shadow_balloon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5826D0815CFCBC0004B2F73 /* daummap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5826D2A15CFCBC0004B2F73 /* Build configuration list for PBXNativeTarget "daummap" */;
+			buildPhases = (
+				C5826D0515CFCBC0004B2F73 /* Sources */,
+				C5826D0615CFCBC0004B2F73 /* Frameworks */,
+				C5826D0715CFCBC0004B2F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daummap;
+			productName = daummap;
+			productReference = C5826D0915CFCBC0004B2F73 /* daummap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5826D0015CFCBC0004B2F73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DM;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = onefm2;
+			};
+			buildConfigurationList = C5826D0315CFCBC0004B2F73 /* Build configuration list for PBXProject "daummap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5826CFE15CFCBC0004B2F73;
+			productRefGroup = C5826D0A15CFCBC0004B2F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5826D0815CFCBC0004B2F73 /* daummap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5826D0715CFCBC0004B2F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5826D1815CFCBC0004B2F73 /* InfoPlist.strings in Resources */,
+				C5826D2415CFCBC0004B2F73 /* DMViewController_iPhone.xib in Resources */,
+				C5826D2715CFCBC0004B2F73 /* DMViewController_iPad.xib in Resources */,
+				C5826D4215CFCBEE004B2F73 /* copyright.png in Resources */,
+				C5826D4315CFCBEE004B2F73 /* detail_button.png in Resources */,
+				C5826D4415CFCBEE004B2F73 /* info_box.png in Resources */,
+				C5826D4515CFCBEE004B2F73 /* map_pin.png in Resources */,
+				C5826D4615CFCBEE004B2F73 /* map_pin_custom.png in Resources */,
+				C5826D4715CFCBEE004B2F73 /* map_pin_red.png in Resources */,
+				C5826D4815CFCBEE004B2F73 /* map_pin_shadow.png in Resources */,
+				C5826D4915CFCBEE004B2F73 /* map_pinup.png in Resources */,
+				C5826D4A15CFCBEE004B2F73 /* map_pinup_custom.png in Resources */,
+				C5826D4B15CFCBEE004B2F73 /* map_present.png in Resources */,
+				C5826D4C15CFCBEE004B2F73 /* map_present_background_update.png in Resources */,
+				C5826D4D15CFCBEE004B2F73 /* map_present_direction.png in Resources */,
+				C5826D4E15CFCBEE004B2F73 /* map_present_tracking.png in Resources */,
+				C5826D4F15CFCBEE004B2F73 /* noimage.png in Resources */,
+				C5826D5015CFCBEE004B2F73 /* noimage256.png in Resources */,
+				C5826D5115CFCBEE004B2F73 /* point_sprite.png in Resources */,
+				C5826D5215CFCBEE004B2F73 /* shadow_balloon.png in Resources */,
+				C5826D5715CFCC2D004B2F73 /* DMMapViewController.xib in Resources */,
+				C578000315D0B25F00FEC26D /* DMRoadViewController.xib in Resources */,
+				C5821B7F15D0C84900389B09 /* www in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5826D0515CFCBC0004B2F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5826D1A15CFCBC0004B2F73 /* main.m in Sources */,
+				C5826D1E15CFCBC0004B2F73 /* DMAppDelegate.m in Sources */,
+				C5826D2115CFCBC0004B2F73 /* DMViewController.m in Sources */,
+				C5826D5615CFCC2D004B2F73 /* DMMapViewController.m in Sources */,
+				C578000215D0B25F00FEC26D /* DMRoadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5826D1615CFCBC0004B2F73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5826D1715CFCBC0004B2F73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5826D2215CFCBC0004B2F73 /* DMViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5826D2315CFCBC0004B2F73 /* en */,
+			);
+			name = DMViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C5826D2515CFCBC0004B2F73 /* DMViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5826D2615CFCBC0004B2F73 /* en */,
+			);
+			name = DMViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5826D2815CFCBC0004B2F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5826D2915CFCBC0004B2F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5826D2B15CFCBC0004B2F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/daummap/lib/DaumMap.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daummap/daummap-Prefix.pch";
+				INFOPLIST_FILE = "daummap/daummap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5826D2C15CFCBC0004B2F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/daummap/lib/DaumMap.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daummap/daummap-Prefix.pch";
+				INFOPLIST_FILE = "daummap/daummap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5826D0315CFCBC0004B2F73 /* Build configuration list for PBXProject "daummap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5826D2815CFCBC0004B2F73 /* Debug */,
+				C5826D2915CFCBC0004B2F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5826D2A15CFCBC0004B2F73 /* Build configuration list for PBXNativeTarget "daummap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5826D2B15CFCBC0004B2F73 /* Debug */,
+				C5826D2C15CFCBC0004B2F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5826D0015CFCBC0004B2F73 /* Project object */;
+}

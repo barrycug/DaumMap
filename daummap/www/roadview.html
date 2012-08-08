@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<title>ROADVIEW</title>
+    <style type="text/css">
+        .Layer{
+            position：absolute;
+            BORDER-BOTTOM: 1px solid;
+            BORDER-LEFT: 1px solid;
+            BORDER-RIGHT: 1px solid;
+            BORDER-TOP: 1px solid;
+        } }
+        </style>
+<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=3918d29f193914cf456c00b6b38bcf1bde04b715" charset="utf-8"></script>
+<script type="text/javascript">
+    function showRoadview(Lat,Lng)
+    {
+        var p = new daum.maps.LatLng(Lat, Lng);
+        var rc = new daum.maps.RoadviewClient();
+        var rv = new daum.maps.Roadview(document.getElementById("roadview"));
+        rc.getNearestPanoId(p, 50, function(panoid) {
+                            rv.setPanoId(panoid, p);
+                            });
+    }
+</script>
+</head>
+<body>
+	<div id="roadview" class=Layer ></div>
+</body>
+</html>
