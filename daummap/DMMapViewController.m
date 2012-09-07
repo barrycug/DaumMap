@@ -8,7 +8,7 @@
 
 #import "DMMapViewController.h"
 #import "DMRoadViewController.h"
-#define DaumMapAPIKEY @"APIKEY"
+#define DaumMapAPIKEY @"APIKey"
 @interface DMMapViewController ()
 
 @end
